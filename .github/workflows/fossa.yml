@@ -9,6 +9,9 @@ jobs:
     uses: movehq/.github/.github/workflows/fossa.yaml@v2
     secrets: inherit
     with:
+      runs_on: ubuntu-latest
       project: terraform-provider-rotating
       policy_id: 72455
       team: MoveHQ
+      
+
